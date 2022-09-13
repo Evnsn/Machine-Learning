@@ -1,5 +1,4 @@
 # Metrics
-test
 
 ## Regression metrics
 There are many metrics for regression. You can see the full list of regression metrics supported by the scikit-learn Python machine learning library here: [Regression Metrics](https://scikit-learn.org/stable/modules/classes.html#regression-metrics).
@@ -24,7 +23,7 @@ MSE represents the average of the squared difference between the original and pr
 $$ \LARGE{MSE = \frac{1}{N} \sum_{i=1}^{N}(y_{i} - \hat{y_{i}})^{2}}. $$
 
 **Pros:** 
-- MSE penalizes the large prediction errors, in contrast to MAE.
+- MSE effectively penalizes larger errors more severely, in contrast to MAE.
 - MSE is a differentiable function (a function whose derivative exists at each point in its domain), in contrast to MAE.
 - MSE is great for learning outliers.
 
@@ -33,25 +32,55 @@ $$ \LARGE{MSE = \frac{1}{N} \sum_{i=1}^{N}(y_{i} - \hat{y_{i}})^{2}}. $$
 
 
 ### Root Mean Squared Error (RMSE)
-Root Mean Squared Error is the square root of MSE. The lower value implies higher accuracy. It measures the standard deviation of residuals  
+Root Mean Squared Error is the square root of MSE. RMSE tells how well a regression model can predict the value of a response variable in absolute terms.  It measures the standard deviation of residuals. The lower value implies higher accuracy
 
 $$ \LARGE{RMSE =\sqrt{ \frac{1}{N} \sum_{i=1}^{N}(y_{i} - \hat{y_{i}})^{2}} }. $$
 
 **Pros:**
-- RMSE penalizes the large prediction errors, in contrast to MAE.
-- RMSE is a differentiable function (a function whose derivative exists at each point in its domain), in contrast to MAE.
+- RMSE effectively penalizes larger errors more severely, in contrast to MAE.
 - RMSE tells how well a regression model can predict the value of a response variable in absolute terms.
+- We use the RMSE more often because it is measured in the same units as the response variable. Conversely, the MSE is measured in squared units of the response variable.
+- RMSE is a differentiable function (a function whose derivative exists at each point in its domain), in contrast to MAE.
+- When used as a loss function, easy to compute gradient.
+- For comparing the accuracy among different linear regression models, RMSE is a better choice than R Squared.
 
+**Cons:**
+- Hard to interpret.
+- Need to compare with other models RMSE to check if this RMSE is good/bad.
 
 ### Huber Loss
 [link](https://bigdatafinance.tw/index.php/tech/methodology/897-3-most-common-loss-functions-for-machine-learning-regression)
 
-### R Squared 
-...
+### R-Squared ($R^{2}$) 
+$R^{2}$, also known as *Coefficient of determination* represents the proportion of the variance in the dependent variable which is explained by the linear regression model 
+
+$$ \LARGE{R^2} = 1 - \frac{RSS}{TSS} = 1 - \frac{\Sigma{(y-\hat{y})^{2}}}{(y-\bar{y})^{2}}. $$
+
+*RSS - 	sum of squares of residuals*, *TSS - total sum of squares*, *$\bar{y}$ - mean value of $y$*.  
+$R^{2}$ is usually between 0 and 1 and idicates how much of the variation your model is able to account for in your data.
+
+
+**Pros:**
+- $R^{2}$ can be more (intuitively) informative than MAE, MSE, and RMSE in regression analysis evaluation.
+- $R^{2}$ tells how well the predictor variables can explain the variation in the response variable
+- Don’t need to compare with other model, value tell you whether it’s good or bad.
+- Models that have worse predictions than this baseline will have a negative $R^{2}$.
+
+**Cons:**
+- $R^{2}$ cannot determine whether the coefficient estimates and predictions are biased.
+- Adding a independent variables will ALWAYS increase the $R^{2}$ score.
+- When evaluating the goodness-of-fit of simulated vs. measured values, it is not appropriate to base this on the  of the linear regression
+
 
 ### Adjusted R Squared 
 ...
 
+
+**Pros:**
+- Adjusted R squared takes into account the number of predictor variables, and it is used to determine the number of independent variables in our model. The value of Adjusted R squared decreases if the increase in the R square by the additional variable isn’t significant enough.
+
+**Cons:**
+- 
 
 ## Classification metrics
 ...
