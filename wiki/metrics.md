@@ -91,6 +91,5 @@ $R^{2}$ is usually between 0 and 1 and idicates how much of the variation your m
 ## Classification metrics
 ...
 
-
 ## Goodness of fit
 - [wikipedia](https://en.wikipedia.org/wiki/Goodness_of_fit)
