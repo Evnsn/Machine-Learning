@@ -1,0 +1,6 @@
+# Distributions
+
+## Gaussian (normal distribution)
+...
+
+
