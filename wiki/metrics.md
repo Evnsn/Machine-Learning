@@ -89,7 +89,21 @@ $R^{2}$ is usually between 0 and 1 and idicates how much of the variation your m
 ...
 
 ## Classification metrics
+
+### Accuracy
 ...
+
+### Recall
+...
+
+### Precision
+...
+
+### F1 score
+...
+
+### Micro, macro and weighted
+https://datascience.stackexchange.com/questions/15989/micro-average-vs-macro-average-performance-in-a-multiclass-classification-settin
 
 ## Goodness of fit
 - [wikipedia](https://en.wikipedia.org/wiki/Goodness_of_fit)

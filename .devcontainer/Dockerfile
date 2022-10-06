@@ -19,9 +19,17 @@ FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
 USER vscode
 
-COPY requirements.txt ./
-RUN pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --no-cache-dir -r requirements.txt
+ADD ./cert ./cert
 
+# Handle SSL-Decrypt...
+# RUN apt-get update && apt-get -y update &&\
+#     apt-get install -y ca-certificates && \
+#     update-ca-certificates
+
+COPY requirements.txt ./
+# RUN pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --no-cache-dir -r requirements.txt
+RUN pip config set global.cert /cert/NORCE_CA.cer && \
+    pip install --no-cache-dir -r requirements.txt
 
 # ADD /cert/Norwegian_Research_Centre_Root_CA.cer /usr/local/share/ca-certificates/NORCE_ROOT_CA.crt
 # RUN chmod 644 /usr/local/share/ca-certificates/NORCE_ROOT_CA.crt && update-ca-certificates
