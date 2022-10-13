@@ -107,3 +107,6 @@ https://datascience.stackexchange.com/questions/15989/micro-average-vs-macro-ave
 
 ## Goodness of fit
 - [wikipedia](https://en.wikipedia.org/wiki/Goodness_of_fit)
+
+## Matthews correlation coefficient (MCC)
+- https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6413-7
