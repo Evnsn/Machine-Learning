@@ -4,3 +4,8 @@ https://towardsdatascience.com/5-minute-guide-to-pandas-pivot-tables-df2d0278688
 
 # Pandas direct plots
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html#pandas.DataFrame.plot
+
+
+## Resources:
+- ...
+- [Understanding Feature Importance and How to Implement it in Python](https://towardsdatascience.com/understanding-feature-importance-and-how-to-implement-it-in-python-ff0287b20285)
