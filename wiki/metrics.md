@@ -99,6 +99,12 @@ $R^{2}$ is usually between 0 and 1 and idicates how much of the variation your m
 ### Precision
 ...
 
+### Specificity
+Identifying the true negatives.
+
+### Perplexity:
+Variability in the data and patterns.
+
 ### F1 score
 ...
 

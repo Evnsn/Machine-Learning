@@ -59,6 +59,8 @@ The permutation feature importance measurement was introduced for Random Forests
 - YT: [13.4.2 Feature Permutation Importance (L13: Feature Selection)](https://www.youtube.com/watch?v=VUvShOEFdQo&ab_channel=SebastianRaschka)
 Dominici (2018) proposed a model-agnostic version of the feature importance — they called it Model Reliance.
 
+It shall be noted that the feature importance values **do not sum up to one**, since they are not normalized (you can normalize them if you'd like, by dividing these by the sum of importance values).
+
 ### Partial Dependence Plots
 Partial Dependence describes the marginal impact of a feature on model prediction, holding other features in the model constant. The derivative of partial dependence describes the impact of a feature (analogous to a feature coefficient in a regression model). 
 - YT: [What it tells us](https://www.youtube.com/watch?v=cmHfEMAJAcM&ab_channel=Dataiku)
@@ -89,3 +91,7 @@ Steps:
 - https://towardsdatascience.com/explainable-artificial-intelligence-part-2-model-interpretation-strategies-75d4afa6b739#:~:text=Shapley%20Values%20and%20SHapley%20Additive%20exPlanations%20(SHAP)
 - [SHAPE](https://towardsdatascience.com/shap-explain-any-machine-learning-model-in-python-24207127cad7)
 - YT: [The Science Behind InterpretML: SHAP](https://www.youtube.com/watch?v=-taOhqkiuIo&ab_channel=MicrosoftDeveloper)
+
+
+## Tools
+- [What-if-tool](https://github.com/pair-code/what-if-tool)
