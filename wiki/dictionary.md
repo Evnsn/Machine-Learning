@@ -3,6 +3,12 @@
 **Distributed representation:**  
 Distributed representation is a compact dense vector representing an object created a with neural networks. Distributed representation for symbolic data was introduced by Hinton (1985).
 
+**Discrimative models:**
+...
+
+**Generative models:**
+... 
+
 **Heterogeneous:**  
 *Stacking* often considers heterogeneous weak learners, learns them in parallel, and combines them. In other words; it use different base learning algorithms to directly ensure ensemble diversity.
 
@@ -13,3 +19,6 @@ A data set is homogeneous if it is made up of things that are similar to each ot
 **Representation learning:**  
 Representation learning aims to learn representations of rawdata as useful information for further classification or prediction. Some methds are; *K-mean clustering*, *PCA* and *ICA*.  
 *Distributed representation* is also form of representation learning made with neural networks.
+
+**Likelihood:**
+https://stats.stackexchange.com/questions/2641/what-is-the-difference-between-likelihood-and-probability

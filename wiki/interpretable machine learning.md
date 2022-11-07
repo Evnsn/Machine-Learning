@@ -87,7 +87,8 @@ Steps:
 ### Local Interpretable Model-agnostic Explanations (LIME)
 - https://towardsdatascience.com/explainable-artificial-intelligence-part-2-model-interpretation-strategies-75d4afa6b739#:~:text=Local%20Interpretable%20Model%2Dagnostic%20Explanations%20(LIME)
 
-### Shapley Values and SHapley Additive exPlanations (SHAP)
+### SHAP (Shapley Values and SHapley Additive exPlanations)
+- [Paper](https://dl.acm.org/doi/10.5555/3295222.3295230)
 - https://towardsdatascience.com/explainable-artificial-intelligence-part-2-model-interpretation-strategies-75d4afa6b739#:~:text=Shapley%20Values%20and%20SHapley%20Additive%20exPlanations%20(SHAP)
 - [SHAPE](https://towardsdatascience.com/shap-explain-any-machine-learning-model-in-python-24207127cad7)
 - YT: [The Science Behind InterpretML: SHAP](https://www.youtube.com/watch?v=-taOhqkiuIo&ab_channel=MicrosoftDeveloper)
