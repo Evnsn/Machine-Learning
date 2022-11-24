@@ -12,6 +12,9 @@ Distributed representation is a compact dense vector representing an object crea
 **Heterogeneous:**  
 *Stacking* often considers heterogeneous weak learners, learns them in parallel, and combines them. In other words; it use different base learning algorithms to directly ensure ensemble diversity.
 
+**Heterogeneous data:** 
+Data with large variation. For example, patients are typically a very heterogeneous population as they differ with many factors including demographics, diagnostic test results, and medical histories.
+
 **Homogenous:**  
 A data set is homogeneous if it is made up of things that are similar to each other.  
 *Bagging* and *boosting* used homogenous weak learners for ensemble.
