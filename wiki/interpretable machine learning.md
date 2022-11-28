@@ -96,3 +96,7 @@ Steps:
 
 ## Tools
 - [What-if-tool](https://github.com/pair-code/what-if-tool)
+
+
+## Resources:
+- [H20: Model explainability](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/explain.html#output-explanations)
