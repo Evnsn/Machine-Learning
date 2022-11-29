@@ -94,6 +94,16 @@ Steps:
 - YT: [The Science Behind InterpretML: SHAP](https://www.youtube.com/watch?v=-taOhqkiuIo&ab_channel=MicrosoftDeveloper)
 
 
+### Sensetivity analysis
+‘Sensitivity analysis is the study of how the uncertainty in the output of a model (numerical or otherwise) can be apportioned to different sources of uncertainty in the model input’ -  (Saltelli, 2002).
+
+#### Morris Sensitivity Analysis (or Morris methods)
+- Paper: [SALib: An open-source Python library for Sensitivity Analysis](https://joss.theoj.org/papers/10.21105/joss.00097)
+- [SALib (Git)](https://github.com/SALib/SALib)
+- YT: [Will Usher: Using the SALib library for conducting sensitivity analyses of models](https://www.youtube.com/watch?v=gkR_lz5OptU&ab_channel=PyData)
+- Blog: [Morris Sensitivity Analysis](https://interpret.ml/docs/msa.html)
+
+
 ## Tools
 - [What-if-tool](https://github.com/pair-code/what-if-tool)
 
