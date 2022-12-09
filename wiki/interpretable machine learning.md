@@ -92,6 +92,7 @@ Steps:
 - https://towardsdatascience.com/explainable-artificial-intelligence-part-2-model-interpretation-strategies-75d4afa6b739#:~:text=Shapley%20Values%20and%20SHapley%20Additive%20exPlanations%20(SHAP)
 - [SHAPE](https://towardsdatascience.com/shap-explain-any-machine-learning-model-in-python-24207127cad7)
 - YT: [The Science Behind InterpretML: SHAP](https://www.youtube.com/watch?v=-taOhqkiuIo&ab_channel=MicrosoftDeveloper)
+- SHAPE docs: [Decision plots](https://shap.readthedocs.io/en/latest/example_notebooks/api_examples/plots/decision_plot.html)
 
 
 ### Sensetivity analysis

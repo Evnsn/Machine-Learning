@@ -4,10 +4,10 @@
 Distributed representation is a compact dense vector representing an object created a with neural networks. Distributed representation for symbolic data was introduced by Hinton (1985).
 
 **Discrimative models:**
-...
+Discriminative models draw boundaries in the data space. A discriminative model focuses on predicting the labels of the data.
 
 **Generative models:**
-... 
+Generative models try to model how data is placed throughout the space. A generative model focuses on explaining how the data was generated.
 
 **Heterogeneous:**  
 *Stacking* often considers heterogeneous weak learners, learns them in parallel, and combines them. In other words; it use different base learning algorithms to directly ensure ensemble diversity.
