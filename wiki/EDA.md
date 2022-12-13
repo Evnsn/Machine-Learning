@@ -85,3 +85,6 @@ https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot
 ## Resources:
 - ...
 - [Understanding Feature Importance and How to Implement it in Python](https://towardsdatascience.com/understanding-feature-importance-and-how-to-implement-it-in-python-ff0287b20285)
+
+## Tools:
+- GiT: [List of Python libaries](https://github.com/topics/visualization?l=python)

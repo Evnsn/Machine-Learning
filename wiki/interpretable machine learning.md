@@ -89,10 +89,15 @@ Steps:
 
 ### SHAP (Shapley Values and SHapley Additive exPlanations)
 - [Paper](https://dl.acm.org/doi/10.5555/3295222.3295230)
-- https://towardsdatascience.com/explainable-artificial-intelligence-part-2-model-interpretation-strategies-75d4afa6b739#:~:text=Shapley%20Values%20and%20SHapley%20Additive%20exPlanations%20(SHAP)
-- [SHAPE](https://towardsdatascience.com/shap-explain-any-machine-learning-model-in-python-24207127cad7)
-- YT: [The Science Behind InterpretML: SHAP](https://www.youtube.com/watch?v=-taOhqkiuIo&ab_channel=MicrosoftDeveloper)
 - SHAPE docs: [Decision plots](https://shap.readthedocs.io/en/latest/example_notebooks/api_examples/plots/decision_plot.html)
+
+#### Blogs
+- TWD: [Shapley Values and SHapley Additive exPlanations (SHAP)](https://towardsdatascience.com/explainable-artificial-intelligence-part-2-model-interpretation-strategies-75d4afa6b739#:~:text=Shapley%20Values%20and%20SHapley%20Additive%20exPlanations%20(SHAP))
+- TWD: [SHAP: Explain Any Machine Learning Model in Python](https://towardsdatascience.com/shap-explain-any-machine-learning-model-in-python-24207127cad7)
+- TWD: [Explainable AI (XAI) with SHAP -Multi-Class Classification Problem](https://towardsdatascience.com/explainable-ai-xai-with-shap-multi-class-classification-problem-64dd30f97cea)
+
+#### Videos
+- YT: [The Science Behind InterpretML: SHAP](https://www.youtube.com/watch?v=-taOhqkiuIo&ab_channel=MicrosoftDeveloper)
 
 
 ### Sensetivity analysis
