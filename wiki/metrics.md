@@ -104,7 +104,7 @@ $R^{2}$ is usually between 0 and 1 and idicates how much of the variation your m
 * *False negative*: Predicted value is negative and is positive (*Type II error*). 
 
 ### Recall
-Recall is a measure of how many relevant elements were detected. Recall refers to the percentage of total relevant results correctly classified. Tt divides true positives by the number of relevant elements meassuring the precentage of hits.
+Recall is a measure of how many relevant elements were detected. Recall refers to the percentage of total relevant results correctly classified. It divides true positives by the number of relevant elements meassuring the precentage of hits.
 
 $$Recall=\fract{TP}{TP + FP}$$
 
@@ -117,7 +117,7 @@ For rare cancer data modeling, anything that doesn't account for false-negatives
 ### Precision
 Precision describes how many detected items are truly relevant. Precision means the percentage of your results which are relevant. It is calculated by dividing the true positives by overall positives.
 
-$$Recall=\fract{TP}{TP + FN}$$
+$$Precision=\fract{TP}{TP + FN}$$
 
 #### Synonyms:
 *precision or positive predictive value (PPV)*

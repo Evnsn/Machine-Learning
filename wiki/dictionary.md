@@ -1,5 +1,22 @@
 # Dictionary
 
+## Correlation
+Correlation is a statistical measure that expresses the extent to which two variables are linearly related.
+Correlation, is constrained to be between –1 and 1, whereas covariance
+scale depends on the scale of the variables x and z.
+$$
+    Cor(x,y) = \frac{\sum{(x_i-\overline{x})(y_i-\overline{y})}}{\sqrt{\sum{(x_i-\overline{x})}\sum{(y_i-\overline{y})}}} = \frac{Cov(x,y)}{\sigma_x \sigma_y}
+$$
+
+## Covariance
+Covariance measures the direction of the relationship between two variables.
+Covariance scale depends on the scale of the variables x and z, unlike Correlation which is constrained between –1 and 1.
+* The main idea behind covariance is that it can classify three types of relation between variables, *positive*, *negative* or *non*. 
+* Covariance is not intresting in itself,  but works as a steping stone for other computations like *Correlation* or *PCA*.
+$$
+    Cov(x,y) = \frac{\sum{(x_i-\overline{x})(y_i-\overline{y})}}{N-1}
+$$
+
 ## Distributed representation:  
 Distributed representation is a compact dense vector representing an object created a with neural networks. Distributed representation for symbolic data was introduced by Hinton (1985).
 
